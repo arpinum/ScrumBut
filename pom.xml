@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>fr.arpinum</groupId>
+        <artifactId>arpinum-parent</artifactId>
+        <version>1.0.3-SNAPSHOT</version>
+    </parent>
+    <groupId>fr.arpinum</groupId>
+    <artifactId>scrumbut</artifactId>
+    <version>1.0</version>
+    <properties>
+        <mongolink.version>0.0.2-SNAPSHOT</mongolink.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>fr.bodysplash</groupId>
+            <artifactId>mongolink</artifactId>
+            <version>${mongolink.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.bodysplash</groupId>
+            <artifactId>mongolink-testtools</artifactId>
+            <version>${mongolink.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.bodysplash</groupId>
+            <artifactId>mongolink-test</artifactId>
+            <version>${mongolink.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.arpinum</groupId>
+            <artifactId>arpinum-web-framework</artifactId>
+            <version>1.7.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
