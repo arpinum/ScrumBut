@@ -34,11 +34,7 @@
             <version>${mongolink.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>fr.arpinum</groupId>
-            <artifactId>arpinum-web-framework</artifactId>
-            <version>1.7.2-SNAPSHOT</version>
-        </dependency>
+        
     </dependencies>
 
 
